@@ -1,0 +1,18 @@
+{
+  "name": "lampa-parser-switch",
+  "version": "1.0.0",
+  "description": "Плагин Lampa: переключение между торрент-парсерами (Jackett / JacRed / Prowlarr)",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "node --check plugin.js && node --test tests/parser-switch.test.cjs",
+    "e2e": "python3 tests/e2e.py",
+    "check": "node --check plugin.js && node --check tests/parser-switch.test.cjs && node --check tests/stub-lampa.cjs"
+  },
+  "keywords": ["lampa", "webos", "tizen", "jackett", "jacred", "prowlarr", "plugin"],
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TetriBee/lampa-parser-switch.git"
+  }
+}
